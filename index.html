@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-1" style="margin-top: 20px;margin-left: 11px;">
+            <input type="number" name="angka1" class="angka" style="border: 2px solid black;">
+            <input type="checkbox" name="check1" id="check1" class="check">
+
+        </div>
+        <div class="form-2" style="margin-top: 20px;margin-left: 11px;">
+            <input type="number" name="angka2" class="angka" style="border: 2px solid black;">
+            <input type="checkbox" name="check2" id="check2" class="check">
+
+        </div>
+        <div class="form-3" style="margin-top: 20px;margin-left: 11px;">
+            <input type="number" name="angka3" class="angka" style="border: 2px solid black;">
+            <input type="checkbox" name="check3" id="check3" class="check">
+
+        </div>
+        <div class="form-action" style="margin-top: 20px;margin-left: 11px;">
+            <button class="tambah" value="+">+</button>
+            <button class="kurang" value="-">-</button>
+            <button class="kali" value="x">X</button>
+            <button class="bagi" value="/">/</button>
+        </div>
+        <div class="form-action" style="margin-top: 20px;margin-left: 11px;">
+            <hr>
+        </div>
+        <div class="form-action" style="margin-top: 20px;margin-left: 11px;">
+            <b>Hasil : <span id="hasil"></span></b>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
